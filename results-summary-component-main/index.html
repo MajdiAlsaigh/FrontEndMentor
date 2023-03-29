@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- google's fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styles CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <article class="results">
+        <div class="result">
+          <h1 class="result__title"><span>Your Result</span></h1>
+
+          <div class="result__test">
+            <p class="result__score">76</p>
+            <p class="result__outof"><span>of 100</span></p>
+          </div>
+
+          <h2>Great</h2>
+          <p class="result__content">
+            <span
+              >You scored higher than 65% of the people who have taken these
+              tests.</span
+            >
+          </p>
+        </div>
+        <div class="summary">
+          <h2 class="summary__title">Summary</h2>
+
+          <div class="flex-group">
+            <p class="summary__tag" data-icon="reaction-icon">Reaction</p>
+            <p class="summary__score">80 <span>/ 100</span></p>
+          </div>
+
+          <div class="flex-group">
+            <p class="summary__tag" data-icon="memory-icon">Memory</p>
+            <p class="summary__score">92 <span>/ 100</span></p>
+          </div>
+
+          <div class="flex-group">
+            <p class="summary__tag" data-icon="verbal-icon">Verbal</p>
+            <p class="summary__score">61 <span>/ 100</span></p>
+          </div>
+
+          <div class="flex-group">
+            <p class="summary__tag" data-icon="visual-icon">Visual</p>
+            <p class="summary__score">72 <span>/ 100</span></p>
+          </div>
+
+          <button class="button">Continue</button>
+        </div>
+      </article>
+
+      <footer class="attribution">
+        <small>
+          <small>
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a href="#">SaiKe</a>.
+          </small>
+        </small>
+      </footer>
+    </main>
+  </body>
+</html>
